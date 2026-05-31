@@ -1,10 +1,10 @@
 ##  📊 Visualização do Painel
 
 <p align="center">
-  <img src="./dashboard/screenshot.png" alt="Painel de Produção Citrícola Brasil" width="100%">
+  <img src="../dashboard/screenshot.png" alt="Painel de Produção Citrícola Brasil" width="100%">
 </p>
 
-Decisões Técnicas do Projeto
+## 🛠️ Decisões Técnicas do Projeto
 
 Correção de NoneType (Mesorregião vs. Região Intermediária): Tive erros de NoneType em Mesorregião e, pesquisando, descobri que o IBGE substituiu essa divisão em 2017 pelas Regiões Intermediárias. Incluí essa nova divisão na extração e no BI. Na Mesorregião antiga, configurei para substituir o null por "Não Mapeado" para evitar "Em Branco" no power bi.
 
